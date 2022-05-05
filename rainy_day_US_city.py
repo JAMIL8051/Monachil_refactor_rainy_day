@@ -26,7 +26,7 @@ def process_rain_data_csv_file(full_csv_file_path):
             full_csv_file_path = full_csv_file_path
             break
         else:
-            print('The file is not valid. Please provide the correct path.')
+            full_csv_file_path = str(input('The file is not valid. Please provide the correct path.'))
 
 
     csv_file = open(full_csv_file_path)
